@@ -1,0 +1,13 @@
+spring:
+    redis:
+        host: captcha-redis.cache.windows.net
+        port: 7767
+        ssl: true
+        password: password
+        timeout: 5S
+captcha:
+    base-url: "https://captcha.test"
+    test-mode-enabled: true
+    allowed-domains:
+    - "*.test.dev"
+    - "*.1trust.app"
